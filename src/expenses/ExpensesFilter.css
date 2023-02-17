@@ -1,0 +1,17 @@
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 16px 0;
+}
+.filter label {
+  color: white;
+  font-weight: bold;
+}
+.selector {
+  font: inherit;
+  padding: 0.5rem 3rem;
+  font-weight: bold;
+  border-radius: 6px;
+}

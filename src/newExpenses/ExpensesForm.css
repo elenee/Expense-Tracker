@@ -1,0 +1,27 @@
+.expenses-inputs {
+  display: flex;
+  flex-direction: column;
+}
+.input-blanks{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.expenses-input label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+}
+.expenses-input input {
+  font: inherit;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 320px;
+  max-width: 100%;
+}
+.expenses-buttons{
+  text-align: right;
+}

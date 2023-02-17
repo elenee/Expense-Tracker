@@ -1,0 +1,40 @@
+.expenses-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 15px auto;
+  background-color: #4b4b4b;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  flex-flow: column-reverse;
+  width: 100%;
+}
+.item h2{
+  font-size: 20px;
+  color: white;
+}
+.item-price {
+  background-color: #40005d;
+  border-radius: 12px;
+  border: 1px solid white;
+  padding: 8px 7px;
+  font-weight: 500;
+  color: white;
+}
+@media (min-width: 580px) {
+  .item{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .item h2{
+    margin-left: 16px;
+  }
+}
